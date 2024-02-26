@@ -1,5 +1,6 @@
 function indexOfIgnoreCase(s1, s2) {
   // write your code here
+return s1.toLowerCase().split(s2.toLowerCase())[0].length;
 }
 
 // Please do not change the code below
